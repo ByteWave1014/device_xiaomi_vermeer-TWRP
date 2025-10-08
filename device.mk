@@ -38,6 +38,7 @@ PRODUCT_PACKAGES += \
 
 # SHIPPING API
 PRODUCT_SHIPPING_API_LEVEL := 31
+
 # VNDK API
 PRODUCT_TARGET_VNDK_VERSION := 33
 
@@ -49,11 +50,10 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # otacert
 PRODUCT_EXTRA_RECOVERY_KEYS += \
-    $(DEVICE_PATH)/security/miui_releasekey \
+    $(DEVICE_PATH)/security/miui_releasekey
 
 TWRP_REQUIRED_MODULES += \
-    miui_prebuilt \
-    magisk_prebuilt \
+    miui_prebuilt
 
 ifneq ($(TW_SKKK_VER_CODE),)
 PRODUCT_PROPERTY_OVERRIDES += ro.twrp.version.skkk.code=$(TW_SKKK_VER_CODE)

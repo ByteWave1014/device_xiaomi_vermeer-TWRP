@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/fuxi
+DEVICE_PATH := device/xiaomi/vermeer
 
 # Inherit from device.mk configuration
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
@@ -23,7 +23,7 @@ $(call inherit-product, $(DEVICE_PATH)/device.mk)
 PRODUCT_RELEASE_NAME := vermeer
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := fuxi
+PRODUCT_DEVICE := vermeer
 PRODUCT_NAME := twrp_vermeer
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi K70
