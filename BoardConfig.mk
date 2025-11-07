@@ -149,7 +149,7 @@ TW_INCLUDE_FASTBOOTD := true
 # TWRP specific build flags
 TW_THEME := portrait_hdpi
 ifeq ($(TW_DEVICE_VERSION),)
-TW_DEVICE_VERSION=12.0
+TW_DEVICE_VERSION=POCO_F6_Pro by Lunark
 endif
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
